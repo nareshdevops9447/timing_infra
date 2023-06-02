@@ -36,3 +36,13 @@ variable "private_subnet_names" {
     type = list
     default = ["timing-private-1a","timing-private-1b"]
 }
+
+variable "database_subnet_cidr" {
+    type = list
+    default =["10.11.0.0/24", "10.12.0.0/24"]
+}
+
+variable "database_subnet_names" {
+    type = list
+    default = ["timing-database-1a","timing-database-1b"]
+}

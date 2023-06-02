@@ -9,4 +9,7 @@ module "vpc" {
     private_subnet_cidr = var.private_subnet_cidr
     private_subnet_names = var.private_subnet_names
     private_route_table_name = local.private_route_table_name
+    database_subnet_cidr = var.database_subnet_cidr
+    database_subnet_names = var.database_subnet_names
+    database_route_table_name = local.database_route_table_name
 }
