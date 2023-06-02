@@ -26,3 +26,4 @@ variable "public_subnet_names" {
     type = list
     default = ["timing-public-1a","timing-public-1b"]
 }
+
