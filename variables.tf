@@ -46,3 +46,13 @@ variable "database_subnet_names" {
     type = list
     default = ["timing-database-1a","timing-database-1b"]
 }
+
+variable "rds_security_group_name" {
+    type = string
+    default = ["timing"]
+}
+
+variable "rds_security_group_description" {
+    type = string
+    default = "This security group is to attach timing RDS"
+}

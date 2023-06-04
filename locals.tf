@@ -12,3 +12,7 @@ locals {
     # timing public this is equal to project name - public
     database_route_table_name = format("%s-%s", lookup(var.tags, "Name"), "database" )
 }
+
+locals {
+    vpc_id = module.vpc.vpc_id
+}
