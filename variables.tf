@@ -49,7 +49,7 @@ variable "database_subnet_names" {
 
 variable "rds_security_group_name" {
     type = string
-    default = ["timing"]
+    default = "timing"
 }
 
 variable "rds_security_group_description" {
