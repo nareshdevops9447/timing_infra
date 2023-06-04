@@ -1,5 +1,5 @@
 module "rds" {
-    source = "../terraform-module-rds"
+    source = "../terraform_module_rds"
     allocated_storage = var.allocated_storage
     db_name = var.db_name
     identifier = var.identifier
