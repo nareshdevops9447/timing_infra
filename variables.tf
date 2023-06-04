@@ -56,3 +56,7 @@ variable "rds_security_group_description" {
     type = string
     default = "This security group is to attach timing RDS"
 }
+
+variable "ingress_cidr" {
+    default = []
+}
