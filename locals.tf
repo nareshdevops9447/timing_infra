@@ -20,3 +20,7 @@ locals {
 locals {
     rds_security_group_name = module.rds_sg.security_group_id
 }
+
+locals {
+    db_subnet_group_name = module.vpc.db_subnet_group_name
+}
