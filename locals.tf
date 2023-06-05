@@ -24,3 +24,7 @@ locals {
 locals {
     db_subnet_group_name = module.vpc.db_subnet_group_name
 }
+
+locals {
+    ecs_cluster_id = module.ecs_cluster.ecs_cluster_id
+}
