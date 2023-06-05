@@ -129,8 +129,7 @@ variable "app_alb_ingress_cidr" {
     to_port = "80"
     cidr_block = "0.0.0.0/0"
     description = "opening 80 to internet"}, 
-    
-        default =  { from_port = "443"
+    { from_port = "443"
     to_port = "443"
     cidr_block = "0.0.0.0/0"
     description = "opening 443 to internet"
