@@ -114,3 +114,7 @@ variable "ecs_log_group_name" {
     default ="/timing/ecs-cluster"
 
 }
+
+variable "rds_secret_arn" {
+  
+}
