@@ -38,9 +38,9 @@ locals {
 
 
 
-locals {
-app_alb_arn = module.app_alb.lb_arn
-}
+# locals {
+# app_alb_arn = module.app_alb.lb_arn
+# }
 
 locals {
      private_subnet_ids        = module.vpc.private_subnet_ids
