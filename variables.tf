@@ -115,6 +115,3 @@ variable "ecs_log_group_name" {
 
 }
 
-variable "rds_secret_arn" {
-  
-}
