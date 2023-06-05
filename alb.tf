@@ -1,6 +1,6 @@
 module "app_alb" {
 
-    source = "terraform-aws-module/alb/aws"
+    source = "terraform-aws-modules/alb/aws"
     name =  var.app_alb_name
     load_balancer_type = "application"
     vpc_id = local.vpc_id
