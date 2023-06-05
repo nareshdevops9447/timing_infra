@@ -28,8 +28,8 @@ module "app_alb" {
   ]
  https_listeners = [
     {
-      port               = 443
-      protocol           = "HTTPS"
+      port               = 80
+      protocol           = "HTTP"
       #certificate_arn    = module.acm.acm_certificate_arn
       target_group_index = 0
     }
