@@ -13,3 +13,7 @@ output "ecs_cluster_id" {
 output "app_alb_security_group_id" {
   value = local.app_alb_security_group_id
 }
+
+output "app_alb_arn" {
+    value = local.app_alb_arn
+}

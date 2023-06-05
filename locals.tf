@@ -35,3 +35,8 @@ locals {
 
 
 }
+
+locals { 
+    private_subnet_ids = module.vpc.private_subnet_ids
+    app_alb_arn = module.app_alb.lb_arn
+}

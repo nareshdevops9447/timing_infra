@@ -136,3 +136,11 @@ variable "app_alb_ingress_cidr" {
 
     }]
 }
+
+variable "app_alb_name" {
+  default =  "timing-app"
+}
+
+variable "app_alb_tags" {
+  default = {}
+}
