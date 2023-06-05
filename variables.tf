@@ -100,3 +100,17 @@ type = string
 default = "rds"
 }
 
+variable "rds_secret_arn" {
+    default = "arn:aws:secretsmanager:us-east-1:123456789012:secret:example-123456"
+
+}
+
+variable "ecs_cluster_name" {
+    type = string
+    default = "timing"
+}
+
+variable "ecs_log_group_name" {
+    default ="/timing/ecs-cluster"
+
+}
