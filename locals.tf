@@ -30,7 +30,8 @@ locals {
 } 
 
 locals {
-    app_alb_security_group_id = module.app_alb_security_group_id
+   
+    app_alb_security_group_id = module.app_alb_sg.security_group_id
 
 
 }
