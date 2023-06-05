@@ -27,4 +27,4 @@ locals {
 
 locals {
     ecs_cluster_id = module.ecs_cluster.ecs_cluster_id
-}
+} 
