@@ -28,3 +28,9 @@ locals {
 locals {
     ecs_cluster_id = module.ecs_cluster.ecs_cluster_id
 } 
+
+locals {
+    app_alb_security_group_id = module.app_alb_security_group_id
+
+
+}

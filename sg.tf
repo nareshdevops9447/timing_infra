@@ -12,6 +12,8 @@ module "äpp_alb_sg" {
     source = "../terraform_module_security_group/"
     vpc_id = local.vpc_id
     security_group_name = var.app_alb_security_group_name
+    app_alb_security_group_id = local.app_alb_security_group_id
+
     security_group_description = var.app_alb_security_group_description
     tags= var.tags
     ingress_cidr = var.app_alb_ingress_cidr
