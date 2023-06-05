@@ -96,6 +96,7 @@ variable "instance_type" {
 }
 
 variable "rds_tags" {
-
+type = string
+default = "rds"
 }
 
