@@ -94,3 +94,8 @@ variable "secret_name" {
 variable "instance_type" {
     default = "db.t4g.micro"
 }
+
+variable "rds_tags" {
+
+}
+
