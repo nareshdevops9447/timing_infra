@@ -101,7 +101,7 @@ default = "rds"
 }
 
 variable "rds_secret_arn" {
-    default = "arn:aws:secretsmanager:us-east-1:123456789012:secret:example-123456"
+    default = {}
 
 }
 
