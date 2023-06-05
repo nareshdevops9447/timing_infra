@@ -30,7 +30,7 @@ module "app_alb" {
     {
       port               = 443
       protocol           = "HTTPS"
-      certificate_arn    = module.acm.acm_certificate_arn
+      #certificate_arn    = module.acm.acm_certificate_arn
       target_group_index = 0
     }
   ]
