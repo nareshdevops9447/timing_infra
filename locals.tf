@@ -31,12 +31,17 @@ locals {
 
 locals {
    
-    app_alb_security_group_id = module.app_alb_sg.security_group_id
 
+    app_alb_security_group_id = module.app_alb_sg.security_group_id
 
 }
 
-locals { 
-    private_subnet_ids = module.vpc.private_subnet_ids
-    app_alb_arn = module.app_alb.lb_arn
+
+
+locals {
+app_alb_arn = module.app_alb.lb_arn
+}
+
+locals {
+     private_subnet_ids        = module.vpc.private_subnet_ids
 }
