@@ -18,7 +18,7 @@ locals {
 }
 
 locals {
-    rds_security_group_name = module.rds_sg.security_group_id
+    rds_security_group_id = module.rds_sg.security_group_id
 }
 
 locals {
