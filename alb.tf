@@ -26,7 +26,7 @@ module "app_alb" {
       }
     }
   ]
- http_listeners = [
+ http_tcp_listeners = [
     {
       port               = 80
       protocol           = "HTTP"
