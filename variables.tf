@@ -90,3 +90,7 @@ variable "rds_username" {
 variable "secret_name" {
   default = "timing/rds_password_value"
 }
+
+variable "instance_type" {
+    default = "db.t4g.micro"
+}
